@@ -16,5 +16,7 @@ do
 done
 
 ##
+systemctl restart php-fpm
+systemctl restart nginx
 /usr/local/bin/renice_all
 
